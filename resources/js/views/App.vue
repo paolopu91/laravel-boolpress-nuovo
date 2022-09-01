@@ -3,6 +3,8 @@
     <!-- navbar -->
     <TheNavbar></TheNavbar>
 
+
+    
     <!-- contenuto di ogni pagina -->
     <!-- simile allo @yield di balde -->
     <router-view></router-view>
@@ -22,9 +24,10 @@ import TheFooter from '../components/TheFooter.vue';
 import Home from '../pages/Home.vue';
 import About from '../pages/About.vue';
 import Contact from '../pages/Contact.vue';
+import PageHEader from '../components/PageHEader.vue';
 
 export default {
-  components: { TheNavbar, TheFooter, Home, About, Contact },
+  components: { TheNavbar, TheFooter, Home, About, Contact, PageHEader },
   data() {
     return {
       page: "home"

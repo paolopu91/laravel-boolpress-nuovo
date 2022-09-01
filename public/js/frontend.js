@@ -178,6 +178,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Home.vue */ "./resources/js/pages/Home.vue");
 /* harmony import */ var _pages_About_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/About.vue */ "./resources/js/pages/About.vue");
 /* harmony import */ var _pages_Contact_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/Contact.vue */ "./resources/js/pages/Contact.vue");
+/* harmony import */ var _components_PageHEader_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PageHEader.vue */ "./resources/js/components/PageHEader.vue");
+
 
 
 
@@ -189,7 +191,8 @@ __webpack_require__.r(__webpack_exports__);
     TheFooter: _components_TheFooter_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     Home: _pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     About: _pages_About_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    Contact: _pages_Contact_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
+    Contact: _pages_Contact_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    PageHEader: _components_PageHEader_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
   },
   data: function data() {
     return {
@@ -16714,6 +16717,38 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./resources/js/components/PageHEader.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/PageHEader.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/js/components/PageHEader.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/TheFooter.vue":
 /*!***********************************************!*\
   !*** ./resources/js/components/TheFooter.vue ***!
@@ -17305,7 +17340,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/florianleica/Boolean/laravel_boolpress/resources/js/frontend.js */"./resources/js/frontend.js");
+module.exports = __webpack_require__(/*! D:\Paolo\Documenti Master Boolean\Esercizi Boolean Master\laravel-boolpress-nuovo\resources\js\frontend.js */"./resources/js/frontend.js");
 
 
 /***/ })
